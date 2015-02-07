@@ -5,7 +5,7 @@ console.log('Testing, yes, I am here')
 
 app.use(express.static(__dirname + '/public'));
 
-app.get('/', function (req, res) {
+app.get('/start.html', function (req, res) {
   res.send('Hello World!')
 })
 
